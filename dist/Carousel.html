@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pa' Donde</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="EstiloCarrousel.css">
+  <link rel="stylesheet" href="EstiloPrincipal.css">
+  <link rel="stylesheet" href="EstiloReserva.css">
+  <script defer src="Carrousel.js"></script>
+  <script defer src="Reservar.js"></script>
+  <script defer src="guardarDatos.js"></script>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<!-- Menu de navegación -->
+<input type="checkbox" id="menu" />
+<label for="menu" class="menu">
+  <span></span>
+  <span></span>
+  <span></span>
+</label>
+
+<nav class="nav">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Restaurantes.html">Restaurantes</a></li>
+    <li><a href="Entretenimiento.html">Entretenimiento</a></li>
+    <li><a href="Carousel.html">Galeria</a></li>
+  </ul>
+</nav>
+
+<!-- Contenido principal -->
+<main>
+  <div class="logo">
+    <header>
+      <h1><img src="../img/Logotipo Restaurante Crema (1).png" alt="Logotipo"></h1>
+    </header>
+  </div>
+
+  
+
+
+<section>
+    <h2>Datos de la reserva</h2>
+    <form id="data-form">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" required><br><br>
+  
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" required><br><br>
+  
+      <label for="phone">Teléfono:</label>
+      <input type="number" id="phone" required><br><br>
+  
+      <button type="submit" id="submit-button">Enviar Datos</button>
+    </form>
+  </section>
+  
+
+
+
+  <section>
+    <div class="container">
+      <div class="carrousel">
+        <div class="grande">
+          <img src="../assets/casino.jpg" alt="Imagen 1" class="img">
+          <img src="../assets/Catrina.jpeg" alt="Imagen 2" class="img">
+          <img src="../assets/chedrani.jpg" alt="Imagen 3" class="img">
+          <img src="../assets/estancia.jpg" alt="Imagen 4" class="img">
+          <img src="../assets/garage.jpg" alt="Imagen 5" class="img">
+          <img src="../assets/inter.jpg" alt="Imagen 6" class="img">
+          <img src="../assets/ketchup.jpg" alt="Imagen 7" class="img">
+          <img src="../assets/marinero.png" alt="Imagen 8" class="img">
+          <img src="../assets/museo.jpg" alt="Imagen 9" class="img">
+          <img src="../assets/nopal.jpg" alt="Imagen 10" class="img">
+          <img src="../assets/novob.jpg" alt="Imagen 11" class="img">
+          <img src="../assets/rooftop.png" alt="Imagen 12" class="img">
+          <img src="../assets/sportmania.jpg" alt="Imagen 13" class="img">
+          <img src="../assets/zizima.jpg" alt="Imagen 14" class="img">
+        </div>
+
+        <!-- Puntos de navegación -->
+        <ul class="puntos">
+          <li class="punto activo"></li>
+          <li class="punto"></li>
+          <li class="punto"></li>
+          <li class="punto"></li>
+          <li class="punto"></li>
+        </ul>
+
+        <!-- Botones de navegación -->
+        <button class="nav-prev"><i class="fa fa-chevron-left"></i></button>
+        <button class="nav-next"><i class="fa fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="logo">
+      <div class="secondary-links">
+        <ul></ul>
+        <ul class="social"></ul>
+      </div>
+    </div>
+  </footer>
+</main>
+
+</body>
+</html>

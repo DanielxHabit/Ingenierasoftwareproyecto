@@ -1,0 +1,70 @@
+/* Carrusel */
+.carrousel {
+    position: relative;
+    width: 100%; /* Ancho del carrusel */
+    max-width: 800px; /* Tamaño máximo del carrusel */
+    height: 400px; /* Altura fija para todas las imágenes */
+    margin: 0 auto;
+    overflow: hidden; /* Oculta las imágenes fuera del carrusel */
+    background: #000; /* Fondo para visualizar el área del carrusel */
+  }
+  
+  .grande {
+    display: flex; /* Muestra las imágenes en una fila horizontal */
+    transition: transform 0.5s ease; /* Transición suave entre imágenes */
+  }
+  
+  .grande .img {
+    width: 100%; /* Cada imagen ocupa el 100% del ancho del carrusel */
+    height: 100%; /* Ajusta la altura de las imágenes */
+    object-fit: cover; /* Recorta las imágenes para cubrir todo el espacio */
+  }
+  
+  /* Puntos de navegación */
+  .puntos {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .punto {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .punto.activo {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
+  /* Botones de navegación */
+  .nav-prev, .nav-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .nav-prev {
+    left: 10px;
+  }
+  
+  .nav-next {
+    right: 10px;
+  }
+  

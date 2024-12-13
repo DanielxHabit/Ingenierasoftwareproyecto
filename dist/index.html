@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pa' Donde</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.1/css/all.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-extra-markers@1.0.6/dist/css/leaflet.extra-markers.min.css">
+  <link rel="stylesheet" href="EstiloPrincipal.css">
+  <link rel="stylesheet" href="googlemap.css">
+  <link rel="stylesheet" href="EstiloRestaurante.css">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+
+  <input type="checkbox" id="menu" />
+  <label for="menu" class="menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+  <nav class="nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Restaurantes.html">Restaurantes</a></li>
+      <li><a href="Entretenimiento.html">Entretenimiento</a></li>
+      <li><a href="Carousel.html">Reservar</a></li>
+    </ul>
+  </nav>
+
+ 
+  <main>
+    <header>
+      <h1><img src="../img/Logotipo Restaurante Crema (1).png" alt="Logotipo"></h1>
+    </header>
+
+    <section>
+      <div class="container">
+        <p>Pa' Donde se enfoca en ofrecer servicios de marketing digital a restaurantes y lugares de ocio en San Pedro Sula, Honduras. A través de estrategias de publicidad en redes sociales, SEO y campañas de email marketing, buscamos ayudar a estos negocios a aumentar su visibilidad en línea y atraer a más clientes. Además, ofrecemos servicios de gestión de reputación en línea, para que los clientes puedan leer reseñas positivas sobre estos lugares y se sientan motivados a visitarlos.</p>      
+        <br>
+        <p>Creemos que hay un gran potencial para mejorar la presencia en línea de los restaurantes y lugares de ocio en San Pedro Sula, y estamos comprometidos en ayudarlos a alcanzar sus objetivos de negocio a través de estrategias de marketing digital efectivas y personalizadas.</p>
+      </div>
+    </section>
+
+  
+    <section>
+      <div class="container">
+        <div id="map"></div>
+        <script src="GoogleMap.js"></script>
+        <script async 
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfcbwW4cCI5oyZVL3Rtc2xHWebdS_CaGU&callback=initMap&libraries=places&v=beta">
+        </script>
+      </div>
+    </section>
+
+   
+    <footer>
+      <div class="secondary-links">
+        <ul></ul>
+        <ul class="social"></ul>
+      </div>
+    </footer>
+  </main>
+  
+</body>
+</html>

@@ -1,0 +1,81 @@
+/* Estilos del formulario */
+#data-form {
+  width: 100%;
+  max-width: 400px; /* El formulario no se extiende demasiado */
+  margin: 0 auto; /* Centra el formulario horizontalmente */
+  padding: 20px;
+  background-color: #f9f9f9; /* Fondo claro */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Títulos y texto del formulario */
+#data-form h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px; /* Separación entre título y campos */
+}
+
+/* Etiquetas del formulario */
+#data-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Campos de entrada */
+#data-form input[type="text"],
+#data-form input[type="email"],
+#data-form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px; /* Espaciado entre campos */
+  border: 1px solid #ccc; /* Borde gris claro */
+  border-radius: 4px; /* Bordes redondeados */
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Estilo al poner el cursor sobre los campos */
+#data-form input[type="text"]:focus,
+#data-form input[type="email"]:focus,
+#data-form input[type="number"]:focus {
+  border-color: #0056b3; /* Borde azul cuando se enfoca */
+  outline: none; /* Elimina el borde por defecto */
+}
+
+/* Estilo del botón de envío */
+#data-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0056b3; /* Color de fondo azul */
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Efecto hover para el botón */
+#data-form button:hover {
+  background-color: #004494; /* Cambia a un azul más oscuro al pasar el mouse */
+}
+
+/* Estilos para el mensaje de error (si lo necesitas más tarde) */
+#data-form .error {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+h2 {
+  text-align: center; /* Alinea el título al centro */
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px; /* Separación entre título y campos */
+}
+

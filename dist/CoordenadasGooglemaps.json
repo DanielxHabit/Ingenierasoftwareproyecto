@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Catrinas Pool & Restaurant, Horario de atencion: 12:00–23:00",
+        "lat": 15.502963462774886,
+        "lng": -88.04743771678436
+    },
+    { 
+        "name": "Catrinas Pool & Restaurant", 
+        "lat": 15.502963462774886,
+        "lng": -88.04743771678436
+    },
+    {
+        "name": "Restaurante El Marinero", 
+        "lat": 15.528601063396849,
+        "lng": -88.02712216764364
+    },
+    { 
+        "name": "Restaurante La Estancia",
+        "lat": 15.510825268571296, 
+        "lng": -88.03134882939482 
+    },
+    { 
+        "name": "Interontinental Restaurante Sanpedrano con Piscina",
+        "lat": 15.494667990868038,
+        "lng": -88.03463680485737 
+    },
+    {  
+        "name": "Restaurante El Nopal",
+        "lat": 15.464378434744503, 
+        "lng": -88.03313896048269 
+    },
+    { 
+        "name": "Restaurante Garage Grill", 
+        "lat": 15.524290320626847, 
+        "lng": -88.02779486052071 
+    },
+    {
+        "name": "Restaurante Novo Bistro",
+        "lat": 15.497457032716724,
+        "lng": -88.04652067606445 
+    },
+    { 
+        "name": "Restaurante Rooftop 0501",
+        "lat": 15.508308469090068,
+        "lng": -88.03682189455117
+    },
+    { 
+        "name": "Restaurante Ketchup",
+        "lat": 15.510643409766118,
+        "lng": -88.04278018502866 
+    },
+    { 
+        "name": "Restaurante Chedrani",
+        "lat": 15.511779996041255,
+        "lng": -88.03450472300986
+    },
+    { 
+        "name": "Canchas Sportmania",
+        "lat": 15.514561116873622,
+        "lng": -88.02099593900458
+    },
+    { 
+        "name": "Casino Luxxor",
+        "lat": 15.501240062043209,
+        "lng": -88.03522705114362
+    },
+    { 
+        "name": "Parque acuático Zizima",
+        "lat": 15.499112967487008,
+        "lng": -87.989073375861 
+    },
+    { 
+        "name": "Museo de Antropología e Historia de San Pedro Sula",
+        "lat": 15.507985683188508,  
+        "lng": -88.0237610408002
+    }
+]
